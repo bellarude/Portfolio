@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/rr_pic_circle_p.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a young engineer passionate about science, nature and politics.
+			  
               <br />
-              <br />I am fluent in classics like
+              <br />My motto is sort of
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> give me a problem and I'll enjoy figuring it out </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Currently I am a PhD. candidate at <br /> the Graduate School of Biomedical Sciences, University of Bern. <br />
+              I am part of the <b className="purple"> Magnetic Resonance Methodology group (MRM) </b> <br /> and working with <b className="purple"> Prof. Roland Kreis </b>.
+			  <br />
+			  <br />
+			  My research interests are:<br />
+			  <b className="purple">Multi-parametric MR </b> spectroscopy (MRS) and Spectroscopy Imaging<br />
+			  Model of biological data<br />
+			  Biological data quantification, with particular interest in methods' accuracy and uncertanty<br />
+			  Artificial Intelligence for quantification, with a specific interest in <b className="purple">Deep Learning </b>
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +55,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/bellarude"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +65,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="hhttps://twitter.com/Rudy__Rizzo"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/rudy-rizzo-tv/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/bellarude/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
