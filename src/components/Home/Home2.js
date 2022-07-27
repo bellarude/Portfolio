@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/rr_pic_circle_p.png";
 import Tilt from "react-parallax-tilt";
+import { ImPointRight } from "react-icons/im";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -33,10 +34,10 @@ function Home2() {
 			  <br />
 			  <br />
 			  My research interests are:<br />
-			  <b className="purple">Multi-parametric MR </b> spectroscopy (MRS) and Spectroscopy Imaging<br />
-			  Model of biological data<br />
-			  Biological data quantification, with particular interest in methods' accuracy and uncertanty<br />
-			  Artificial Intelligence for quantification, with a specific interest in <b className="purple">Deep Learning </b>
+			  <ImPointRight /> <b className="purple">Multi-parametric MR </b> spectroscopy (MRS) and Spectroscopy Imaging<br />
+			  <ImPointRight />Model of biological data<br />
+			  <ImPointRight />Biological data quantification, with particular interest in methods' accuracy and uncertanty<br />
+			  <ImPointRight />Artificial Intelligence for quantification, with a specific interest in <b className="purple">Deep Learning </b>
               
             </p>
           </Col>
@@ -65,7 +66,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="hhttps://twitter.com/Rudy__Rizzo"
+                  href="https://twitter.com/Rudy__Rizzo"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
