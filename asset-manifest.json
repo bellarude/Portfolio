@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.de770f5e.css",
-    "main.js": "/Portfolio/static/js/main.19cb90c2.js",
+    "main.js": "/Portfolio/static/js/main.65ac392f.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/new_resume_RR.pdf": "/Portfolio/static/media/new_resume_RR.93a42319a37a4f21bce5.pdf",
+    "static/media/rudy_rizzo_resume.pdf": "/Portfolio/static/media/rudy_rizzo_resume.93a42319a37a4f21bce5.pdf",
     "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/rr_pic_circle_p.png": "/Portfolio/static/media/rr_pic_circle_p.c8488587a0a898c83fe7.png",
     "static/media/emotion.png": "/Portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
@@ -18,12 +18,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.de770f5e.css.map": "/Portfolio/static/css/main.de770f5e.css.map",
-    "main.19cb90c2.js.map": "/Portfolio/static/js/main.19cb90c2.js.map",
+    "main.65ac392f.js.map": "/Portfolio/static/js/main.65ac392f.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de770f5e.css",
-    "static/js/main.19cb90c2.js"
+    "static/js/main.65ac392f.js"
   ]
 }
