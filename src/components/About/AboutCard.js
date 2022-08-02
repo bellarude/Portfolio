@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { VscCircleFilled } from "react-icons/vsc";
+import { BsEmojiLaughing } from "react-icons/bs";
 
 function AboutCard() {
   return (
@@ -8,30 +9,40 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Hi Everyone, I am <span className="purple">Rudy Rizzo </span>
+            from <span className="purple"> Treviso, Italy.</span>
+            <br />I am a PhD. candidate at the Graduate School of Biomedical Sciences @ University of Bern, Switzerland.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding and research, some other activities that I love to do!
           </p>
           <ul>
+		  
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <VscCircleFilled /> Playing Dungeons & Dragons!
             </li>
+			
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <VscCircleFilled /> Playing and designing games, especially boardgames!
+			  </li>
+			  
+            <li className="about-activity">
+              <VscCircleFilled /> Cooking (a must have in Italy! <BsEmojiLaughing />)
             </li>
+			
+			<li className="about-activity">
+              <VscCircleFilled /> Hiking, with particular interest in Via Ferratas
+            </li>
+			
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <VscCircleFilled /> Travelling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Logic will get you from A to B. <br /> Imagination will take you everywhere"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Alber Einstein</footer>
         </blockquote>
       </Card.Body>
     </Card>

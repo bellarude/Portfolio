@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/rr_pic_circle_p.png";
 import Tilt from "react-parallax-tilt";
-import { ImPointRight } from "react-icons/im";
+import { VscCircleFilled } from "react-icons/vsc";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -23,9 +23,10 @@ function Home2() {
               I am a young engineer passionate about science, nature and politics.
 			  
               <br />
-              <br />My motto is sort of
+              <br />I enjoy figure out any sort of problem
+			  <br />
               <i>
-                <b className="purple"> give me a problem and I'll enjoy figuring it out </b>
+                <b className="purple"> that would require any visual aid or logic to be applied </b>
               </i>
               <br />
               <br />
@@ -34,10 +35,10 @@ function Home2() {
 			  <br />
 			  <br />
 			  My research interests are:<br />
-			  <ImPointRight /> <b className="purple">Multi-parametric MR </b> spectroscopy (MRS) and Spectroscopy Imaging<br />
-			  <ImPointRight />Model of biological data<br />
-			  <ImPointRight />Biological data quantification, with particular interest in methods' accuracy and uncertanty<br />
-			  <ImPointRight />Artificial Intelligence for quantification, with a specific interest in <b className="purple">Deep Learning </b>
+			  <VscCircleFilled /><b className="purple">Multi-parametric MR </b> spectroscopy (MRS) and Spectroscopy Imaging<br />
+			  <VscCircleFilled />Model of biological data<br />
+			  <VscCircleFilled />Biological data quantification, with particular interest in methods' accuracy and uncertanty<br />
+			  <VscCircleFilled />Artificial Intelligence for quantification, with a specific interest in <b className="purple">Deep Learning </b>
               
             </p>
           </Col>

@@ -1,10 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import matlabLogo from "../../Assets/Matlab.png";
 import {
-  SiLinux,
+  SiMicrosoftoffice,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
+  SiSiemens,
+  SiPycharm,
   SiVercel,
 } from "react-icons/si";
 
@@ -12,20 +13,24 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiMicrosoftoffice />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiSiemens />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiPycharm />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+	  
+	  <Col xs={4} md={2} className="tech-icons">
+        <img
+			src={matlabLogo}
+		/>
       </Col>
+	  
     </Row>
   );
 }
