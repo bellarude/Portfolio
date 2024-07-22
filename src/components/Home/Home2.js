@@ -16,30 +16,31 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 style={{ fontSize: "2.6em", textAlign: "justify"}}>
+              <span className="purple"> WELCOME </span> to my website!
             </h1>
             <p className="home-about-body">
-              I am a young engineer passionate about science, nature and politics.
+              I am a biomedical engineer deeply passionate about 
+			  <br />
+			  science, nature, sports and boardgames!
 			  
               <br />
-              <br />I enjoy figure out any sort of problem
+              <br />I thrive on solving intricate problems that require 
 			  <br />
               <i>
-                <b className="purple"> that would require any visual aid or logic to be applied </b>
+                <b className="purple"> creative solutions </b> and <b className="purple"> analytical thinking </b>.
               </i>
               <br />
               <br />
-              Currently I am a PhD. candidate at <br /> the Graduate School of Biomedical Sciences, University of Bern. <br />
-              I am part of the <b className="purple"> Magnetic Resonance Methodology group (MRM) </b> <br /> and working with <b className="purple"> Prof. Roland Kreis </b>.
-			  <br />
-			  <br />
-			  My research interests are:<br />
-			  <VscCircleFilled /><b className="purple">Multi-parametric MR </b> spectroscopy (MRS) and Spectroscopy Imaging<br />
-			  <VscCircleFilled />Model of biological data<br />
-			  <VscCircleFilled />Biological data quantification, with particular interest in methods' accuracy and uncertanty<br />
-			  <VscCircleFilled />Artificial Intelligence for quantification, with a specific interest in <b className="purple">Deep Learning </b>
-              
+			  
+			  <div>
+              Whether it's unraveling puzzles in my leisure time or tackling complex issues professionally, 
+			  I find immense satisfaction in <b className="purple"> navigating uncertainties to achieve breakthroughs </b>. 
+			  I am eager to apply my problem-solving skills to contribute to projects that <b className="purple"> push the boundaries 
+			  of knowledge and innovation </b>. My enthusiasm drives me to continuously explore new approaches and research fields, 
+			  collaborating with diverse teams <b className="purple"> to integrate different areas of expertise </b> and deliver meaningful outcomes.  
+			  
+              </div>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -3,24 +3,12 @@ import Card from "react-bootstrap/Card";
 import { VscCircleFilled } from "react-icons/vsc";
 import { BsEmojiLaughing } from "react-icons/bs";
 
-function AboutCard() {
+function AboutCard2() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            I am currently a postdoctoral researcher for the <span className="purple"> Michigan Institute for Imaging and Technology  </span>
-			affiliated with the Department of Radiology at the <span className="purple"> University of Michigan </span>, 
-			working under the guidance of <span className="purple"> Prof. Nicole Seiberlich </span>. 
-			My expertise and research interests span several pivotal areas:
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			</p>
-			
-			<p style={{ textAlign: "right" }}>
+          <p style={{ textAlign: "justify" }}>         
 			 <li className="about-activity">
               <VscCircleFilled /> <span className="purple">Multi-parametric quantitative</span> MR imaging (MRI) and spectroscopy (MRS)
             </li>
@@ -78,4 +66,4 @@ function AboutCard() {
   );
 }
 
-export default AboutCard;
+export default AboutCard2;
