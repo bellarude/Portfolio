@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import PublicationsCard from "./PublicationsCards";
+import PublicationsCard from "./PublicationCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
@@ -15,78 +15,78 @@ function Publications() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple"> Publication </strong> list
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+		
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
             <PublicationsCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
+			  number = "[J7]"
+              title="Diffusion-weighted MR spectroscopy of the prostate"
+              description="Stamatelatou A, Rizzo R, Simsek K, Van Asten J, Heershap A, Scheenen T, Kreis R."
+			  journal ="Magnetic Resonance in Medicine 92(4):1323-1337, 2024"
+              ghLink="https://pubmed.ncbi.nlm.nih.gov/38775024/"
+            />     
+        </Row>
+		
+		<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <PublicationsCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
+			  number = "[J6]"
+              title="Water removal in MR spectroscopic imaging with Casorati singular value decomposition"
+              description="Shamaei A, Starcukova J, Rizzo R, Starcuk JZ."
+			  journal ="Magnetic Resonance in Medicine, 91(4):1694-1706, 2024"
+              ghLink="https://pubmed.ncbi.nlm.nih.gov/38181180/"
+            />     
+        </Row>
+		
+		<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <PublicationsCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
+			  number = "[J5]"
+              title="Multi-echo single-shot spectroscopy combined with simultaneous 2D model fitting for fast and accurate measurement of metabolite-specific concentrations and T2 relaxation times"
+              description="Rizzo R, Kreis R. "
+			  journal ="NMR in Biomedicine, 36(12):e5016, 2023"
+              ghLink="https://pubmed.ncbi.nlm.nih.gov/37587062/"
+            />     
+        </Row>
+		
+		<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <PublicationsCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
+			  number = "[J4]"
+              title="Denoising single MR spectra by deep learning: miracle or mirage?"
+              description="Dziadosz M, Rizzo R, Kyathanahally SP, Kreis R."
+			  journal ="Magnetic Resonance in Medicine,  90(5):1749-1761, 2023"
+              ghLink="https://pubmed.ncbi.nlm.nih.gov/37332185/"
+            />     
+        </Row>
+		
+		<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <PublicationsCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
+			  number = "[J3]"
+              title="Quantification of MR spectra by deep learning in an idealized setting: investigation of forms of input, network architectures, optimization by ensembles of networks and training bias"
+              description="Rizzo R, Dziadosz M, Kyathanahally SP, Shamaei A, Kreis R."
+			  journal ="Magnetic Resonance in Medicine, 89:1707-1727, 2023"
+              ghLink="https://pubmed.ncbi.nlm.nih.gov/36533881/"
+            />     
+        </Row>
+		
+		<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <PublicationsCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+			  number = "[J2]"
+              title="Reliability of Quantification Estimates in MR Spectroscopy: CNNs vs. traditional model fitting"
+              description="Rizzo R, Dziadosz M, Kyathanahally SP, Kreis R."
+			  journal ="Lecture Notes in Computer Science 13438, 715-724, 2022"
+              ghLink="https://link.springer.com/chapter/10.1007/978-3-031-16452-1_68"
+            />     
+        </Row>
+		
+		<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <PublicationsCard
+			  number = "[J1]"
+              title="Non-parallelism of needles in electroporation: 3D computational model and experimental analysis"
+              description="Campana LG, Di Barba P, Dughiero F, Forzan M,  Mognaschi ME, Rizzo R, Sieni E."
+			  journal ="COMPEL – the International Journal for computation and mathematics in electrical and electronic engineering, Vol. 38 No.1, pp 348-361, 2019"
+              ghLink="https://www.researchgate.net/publication/328546022_Non-parallellism_of_needles_in_electroporation_3D_computational_model_and_experimental_analysis"
+            />     
         </Row>
       </Container>
     </Container>

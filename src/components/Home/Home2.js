@@ -9,6 +9,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { HiAcademicCap } from "react-icons/hi";
 
 function Home2() {
   return (
@@ -90,6 +91,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+			  <li className="social-icons">
+                <a
+                  href="https://scholar.google.ch/citations?user=7vT3PLUAAAAJ&hl=en"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <HiAcademicCap />
                 </a>
               </li>
             </ul>

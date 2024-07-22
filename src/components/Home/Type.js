@@ -10,6 +10,7 @@ function Type() {
           "Deep Learning Engineer",
           "Nuclear Magnetic Resonance Physicist",
           "Dungeons & Dragons geek ",
+		  "Researcher",
         ],
         autoStart: true,
         loop: true,

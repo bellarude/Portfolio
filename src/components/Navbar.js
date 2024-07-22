@@ -15,6 +15,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { GiArchiveResearch } from "react-icons/gi";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -75,7 +76,7 @@ function NavBar() {
                 to="/publications"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Publications
+                <GiArchiveResearch style={{ marginBottom: "2px" }} /> Publications
               </Nav.Link>
             </Nav.Item>
 
