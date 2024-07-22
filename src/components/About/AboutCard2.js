@@ -8,7 +8,7 @@ function AboutCard2() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>         
+          <p style={{ textAlign: "left" }}>         
 			 <li className="about-activity">
               <VscCircleFilled /> <span className="purple">Multi-parametric quantitative</span> MR imaging (MRI) and spectroscopy (MRS)
             </li>
@@ -28,8 +28,11 @@ function AboutCard2() {
               <VscCircleFilled /> Application of <span className="purple">Machine Learning</span> for quantification purposes, with a specific interest in <span className="purple">Deep Learning</span> and its 
 			  impact on <span className="purple">reliability and robustness</span> compared to traditional model-driven quantitative methods.
             </li>
-			</p>
 			
+			
+			<br/>
+			<br/>
+			<br/>
 			
             Apart from coding and research, some other activities that I love to do!
           
@@ -55,7 +58,7 @@ function AboutCard2() {
               <VscCircleFilled /> Travelling
             </li>
           </ul>
-
+			</p>
           <p style={{ color: "rgb(155 126 172)" }}>
             "Logic will get you from A to B. <br /> Imagination will take you everywhere"{" "}
           </p>

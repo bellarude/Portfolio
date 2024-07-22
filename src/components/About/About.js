@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import Aboutcard2 from "./AboutCard2";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
@@ -21,14 +22,14 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "100px" }}>
               What <strong className="purple"> do </strong> I <strong className="purple"> do </strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "120px", paddingBottom: "20px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />

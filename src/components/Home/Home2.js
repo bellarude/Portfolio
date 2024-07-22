@@ -19,17 +19,12 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em", textAlign: "justify"}}>
               <span className="purple"> WELCOME </span> to my website!
             </h1>
-            <p className="home-about-body">
-              I am a biomedical engineer deeply passionate about 
-			  <br />
-			  science, nature, sports and boardgames!
+            <p className="home-about-body" >
+			<p style={{ textAlign: "justify"}}>
+              I am a biomedical engineer deeply passionate about science, nature, sports and boardgames!
 			  
               <br />
-              <br />I thrive on solving intricate problems that require 
-			  <br />
-              <i>
-                <b className="purple"> creative solutions </b> and <b className="purple"> analytical thinking </b>.
-              </i>
+              <br />I thrive on solving intricate problems that require <b className="purple"> creative solutions </b> and <b className="purple"> analytical thinking </b>.
               <br />
               <br />
 			  
@@ -41,6 +36,7 @@ function Home2() {
 			  collaborating with diverse teams <b className="purple"> to integrate different areas of expertise </b> and deliver meaningful outcomes.  
 			  
               </div>
+			  </p>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
